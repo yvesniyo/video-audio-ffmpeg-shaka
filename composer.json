@@ -11,6 +11,7 @@
         "encryption"
     ],
     "require": {
+        "php": "^7.2",
         "aminyazdanpanah/php-shaka": "^1.0",
         "php-ffmpeg/php-ffmpeg": "^0.19.0"
     },
