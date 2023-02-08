@@ -12,9 +12,23 @@
     ],
     "require": {
         "php": "^7.2|^7.3|^7.4|^8.0|^8.1",
-        "aminyazdanpanah/php-shaka": "^1.0",
+        "volman-dev/shaka-php": "master",
         "php-ffmpeg/php-ffmpeg": "^0.19.0"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "volman-dev/shaka-php",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/volman-dev/shaka-php.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "autoload": {
         "psr-4": {
             "yvesniyo\\VideoFfmpegShaka\\": "src/"
